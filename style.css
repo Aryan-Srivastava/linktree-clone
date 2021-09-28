@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
+
+body {
+	/* background: #4568dc; 
+	background: -webkit-linear-gradient(to right, #4568dc, #b06ab3);
+	background: linear-gradient(to right, #4568dc, #b06ab3); */
+	background: linear-gradient(0deg, rgb(253, 143, 103) , rgb(212, 99, 163));
+	min-height: 100vh;
+}
+
+p span{
+	display: block;
+}
+
+section {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.head {
+	position: relative;
+	text-align: center;
+	font-size: 22px;
+	font-family: "Cormorant Garamond", serif;
+}
+
+.sub-head {
+	font-family: Karla;
+}
+
+.image-profile {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 80%;
+	margin: auto;
+}
+
+img {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+a {
+	color: #ffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+}
+
+.links {
+	padding: 15px;
+	background: rgb(2, 0, 39);
+	background: rgb(7, 169, 228);
+	border: 3px solid rgb(7, 169, 228);
+	border-radius: 10px;
+}
+
+.links:hover {
+	background: transparent;
+	border-radius: 10px;
+	transition: all 0.32s ease-in-out;
+}
+
+.links:active {
+	background-color: rgb(13, 243, 101);
+	box-shadow: 0 5px rgb(114, 114, 114);
+	transform: translateY(2px);
+}
+
+.link-section {
+	padding: 12px;
+}
+
+.sub-section {
+	margin: 20px;
+}
